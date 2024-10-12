@@ -16,7 +16,7 @@ import java.util.List;
 @NamedQueries({
         @NamedQuery(
                 name = "Author.findByNamedQuery",
-                query = "select a Author a where a.age >= :age"
+                query = "select a from Author a where a.age >= :age"
         ),
         @NamedQuery(
                 name = "Author.updateByNamedQuery",
